@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: rgba(0, 0, 0, 0.01);
+  --background: rgba(255, 255, 255, 0.68);
   --foreground: #171717;
   --hero-background: #b3b1b1;
 }
@@ -39,4 +39,9 @@ body {
   background-size: cover;
 
 
+}
+
+.hero-section button {
+  border: none;
+  outline: none;
 }
