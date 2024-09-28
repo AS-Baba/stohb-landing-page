@@ -10,31 +10,31 @@ export const Features = () => {
                     enhance understanding and provide clearer interpretations of numbers and insights.</p>
             </div>
             <hr className={"w-full border border-[#939393]"}/>
-            <div className={"grid grid-cols-2"}>
-                <div className={"flex flex-col justify-center items-start gap-8"}>
+            <div className={"md:grid grid-cols-2"}>
+                <div className={"flex flex-col justify-start items-start gap-4 md:gap-8"}>
                     <span
-                        className={"font-[100] text-[20px] text-[#5E5D5DFF] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700 "}>Effortless Bank Reconciliations
+                        className={"font-[100] text-[16px] md:text-[20px] text-[#5E5D5DFF] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700 "}>Effortless Bank Reconciliations
                     </span>
                     <span
-                        className={"font-[100] text-[20px] text-[#5E5D5DFF] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700"}>Forward Invoices & Bills via Email
+                        className={"font-[100] text-[16px] md:text-[20px] text-[#5E5D5DFF] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700"}>Forward Invoices & Bills via Email
                     </span>
                     <span
-                        className={"font-[100] text-[20px] text-[#5E5D5DFF] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700"}>Easy Customer Management
+                        className={"font-[100] text-[16px] md:text-[20px] text-[#5E5D5DFF] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700"}>Easy Customer Management
                     </span>
                     <span
-                        className={"font-[100] text-[20px] text-[#5E5D5DFF] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700"}>Organize Customers Into Groups
+                        className={"font-[100] text-[16px] md:text-[20px] text-[#5E5D5DFF] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700"}>Organize Customers Into Groups
                     </span>
                     <span
-                        className={"font-[100] text-[20px] text-[#5E5D5DFF] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700"}>Insightful Financial Reporting
+                        className={"font-[100] text-[16px] md:text-[20px] text-[#5E5D5DFF] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700"}>Insightful Financial Reporting
                     </span>
                     <span
-                        className={"font-[100] text-[20px] text-[#5E5D5DFF] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700"}>Analize Debtors And Creditors
+                        className={"font-[100] text-[16px] md:text-[20px] text-[#5E5D5DFF] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700"}>Analize Debtors And Creditors
                     </span>
                 </div>
 
-                <div>
+                <div className={"max-sm:hidden"}>
                     <Image
-                        src="/" // Path to the image in the public folder
+                        src="/assets/pocket.2fb39202d9aacace986c.jpeg" // Path to the image in the public folder
                         alt="My awesome image"
                         width={500} // Width of the image
                         height={300} // Height of the image
