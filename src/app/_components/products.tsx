@@ -1,9 +1,9 @@
 export const Products = () => {
     return (
-        <div className={"flex flex-col gap-8 mt-4 mb-8  px-[20px]"}>
-            <div className={"flex flex-col justify-start items-start gap-4 md:w-[500px]"}>
-                <h1 className={"text-[16px] md:text-4xl text-[#111] font-[700]"}>Products</h1>
-                <p className={"text-[16px] md:text-[18px] text-[#7E7E7EFF]"}>Stohb makes it very easy for businesses to gain
+        <div className={"flex flex-col gap-8 mt-4 py-[66px] px-[26px]"}>
+            <div className={"flex flex-col justify-start items-start gap-8 md:w-[700px]"}>
+                <h1 className={"text-[16px] md:text-4xl text-[#111] font-[700] tracking-wide"}>Products</h1>
+                <p className={"text-[16px] md:text-[18px] text-[#939393] tracking-wide"}>Stohb makes it very easy for businesses to gain
                     control of its cash flow, send invoices and manage
                     customers</p>
             </div>
