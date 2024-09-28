@@ -17,7 +17,7 @@ export const Products = () => {
                     </svg>
 
                     <div>
-                        <h1 className={"text-2xl text-[#111] font-[500] antialiased"}>Accounts payable</h1>
+                        <h1 className={"md:text-2xl text-[20px] text-[#111] font-[500] antialiased"}>Accounts payable</h1>
                         <p className={"text-sm text-gray-400"}>Manage expenses, and reconcile bills</p>
                     </div>
 
@@ -30,7 +30,7 @@ export const Products = () => {
                     </svg>
 
                     <div>
-                        <h1 className={"text-2xl text-[#111] font-[500] antialiased"}>Accounts receivable</h1>
+                        <h1 className={"md:text-2xl text-[20px] text-[#111] font-[500] antialiased"}>Accounts receivable</h1>
                         <p className={"text-sm text-gray-400"}>Send invoices and get paid</p>
                     </div>
 
@@ -43,7 +43,7 @@ export const Products = () => {
                     </svg>
 
                     <div>
-                        <h1 className={"text-2xl text-[#111] font-[500] antialiased"}>Manage customers</h1>
+                        <h1 className={"md:text-2xl text-[20px] text-[#111] font-[500] antialiased"}>Manage customers</h1>
                         <p className={"text-sm text-gray-400"}>Seamless customer management and grouping </p>
                     </div>
 
