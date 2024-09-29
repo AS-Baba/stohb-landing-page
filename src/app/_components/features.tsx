@@ -13,22 +13,22 @@ export const Features = () => {
             <div className={"md:grid grid-cols-2"}>
                 <div className={"flex flex-col justify-start items-start gap-4 md:gap-8"}>
                     <span
-                        className={"font-[100] text-[16px] md:text-[20px] text-[#5E5D5DFF] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700 "}>Effortless Bank Reconciliations
+                        className={"font-[100] text-[16px] md:text-[20px] text-[#b3b1b1] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700 "}>Effortless Bank Reconciliations
                     </span>
                     <span
-                        className={"font-[100] text-[16px] md:text-[20px] text-[#5E5D5DFF] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700"}>Forward Invoices & Bills via Email
+                        className={"font-[100] text-[16px] md:text-[20px] text-[#b3b1b1] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700"}>Forward Invoices & Bills via Email
                     </span>
                     <span
-                        className={"font-[100] text-[16px] md:text-[20px] text-[#5E5D5DFF] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700"}>Easy Customer Management
+                        className={"font-[100] text-[16px] md:text-[20px] text-[#b3b1b1] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700"}>Easy Customer Management
                     </span>
                     <span
-                        className={"font-[100] text-[16px] md:text-[20px] text-[#5E5D5DFF] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700"}>Organize Customers Into Groups
+                        className={"font-[100] text-[16px] md:text-[20px] text-[#b3b1b1] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700"}>Organize Customers Into Groups
                     </span>
                     <span
-                        className={"font-[100] text-[16px] md:text-[20px] text-[#5E5D5DFF] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700"}>Insightful Financial Reporting
+                        className={"font-[100] text-[16px] md:text-[20px] text-[#b3b1b1] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700"}>Insightful Financial Reporting
                     </span>
                     <span
-                        className={"font-[100] text-[16px] md:text-[20px] text-[#5E5D5DFF] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700"}>Analize Debtors And Creditors
+                        className={"font-[100] text-[16px] md:text-[20px] text-[#b3b1b1] tracking-wider transition-transform duration-500 transform hover:translate-x-10 hover:text-emerald-700"}>Analize Debtors And Creditors
                     </span>
                 </div>
 
