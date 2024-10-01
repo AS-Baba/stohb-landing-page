@@ -46,3 +46,20 @@ body {
   border: none;
   outline: none;
 }
+
+.try-stohb-img {
+  width: 50%;
+  height:500px;
+  background: url("../../public/assets/apex.c4134d9d7654b267172c.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.try-stohb-img-mobile {
+  width: 50%;
+  height:500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.06), rgb(0, 0, 0)),url("../../public/assets/apex.c4134d9d7654b267172c.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
