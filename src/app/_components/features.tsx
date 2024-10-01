@@ -4,12 +4,12 @@ export const Features = () => {
     return (
         <div className={"flex flex-col gap-4 bg-black py-[66px] px-[26px]"}>
             <div className={"flex flex-col justify-start items-start gap-8 md:w-[900px]"}>
-                <h1 className={"text-[16px] md:text-4xl text-[#fff] font-[700] tracking-wide"}>Features</h1>
+                <h1 className={"text-[16px] md:text-6xl text-[#fff] font-[500] tracking-wide"}>Features</h1>
                 <p className={"text-[16px] md:text-[18px] text-[#939393] tracking-wide"}>Stohb offers numerous amazing
                     features that elevate your business finances. We simplify accounting terminologies and concepts to
                     enhance understanding and provide clearer interpretations of numbers and insights.</p>
             </div>
-            <hr className={"w-full border border-[#939393]"}/>
+            <hr className={"w-full border-[#939393] border-[1px]"}/>
             <div className={"md:grid grid-cols-2"}>
                 <div className={"flex flex-col justify-start items-start gap-4 md:gap-8"}>
                     <span
