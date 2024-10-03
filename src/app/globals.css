@@ -34,10 +34,10 @@ body {
 }
 
 .hero-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.47), rgba(7, 7, 7, 0.53)), url("../app/assets/banner.7eb00767ca447d86ee41.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  /*background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.6)), url("../../public/assets/Hero-image.png");*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: right;*/
+  /*background-size: contain;*/
 
 
 }
@@ -62,4 +62,16 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-section {
+    /*background: linear-gradient(rgba(255, 255, 255, 0.47), rgba(255, 255, 255, 0.63)), url("../../public/assets/banner.7eb00767ca447d86ee41.jpeg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
+
+
+  }
+
 }
