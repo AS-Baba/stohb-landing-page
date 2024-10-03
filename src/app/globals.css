@@ -64,12 +64,15 @@ body {
   background-position: center;
 }
 
+div.border-top {
+  border-top: 1px solid #111;
+}
 @media screen and (max-width: 768px) {
   .hero-section {
-    /*background: linear-gradient(rgba(255, 255, 255, 0.47), rgba(255, 255, 255, 0.63)), url("../../public/assets/banner.7eb00767ca447d86ee41.jpeg");*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: center;*/
-    /*background-size: cover;*/
+    background: linear-gradient(rgba(255, 255, 255, 0.47), rgba(255, 255, 255, 0.63)), url("../../public/assets/Hero-image.png");;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
 
 
   }
