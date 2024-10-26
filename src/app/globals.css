@@ -29,7 +29,7 @@ body {
 }
 
 .border {
-  border: 1px solid --foreground;
+  border: 1px solid #c2f43bff ;
   transition: all;
   animation-duration: .3s;
 
