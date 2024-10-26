@@ -3,10 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --background: rgba(255, 255, 255, 0.68);
-  --foreground: #171717;
+  --background: #002c15ff;
+  --foreground: #c2f43bff;
   --hero-background: #b3b1b1;
-
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,6 +27,22 @@ body {
     text-wrap: balance;
   }
 }
+
+.border {
+  border: 1px solid --foreground;
+
+} 
+
+.border:hover {
+  background-color: var(--foreground);
+  color: var(--background);
+  border: none;
+}
+.border:hover .arrow {
+  color: var(--background);
+}
+
+
 
 .header {
   background-color: var(--background);

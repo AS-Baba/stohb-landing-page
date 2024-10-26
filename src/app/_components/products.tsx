@@ -1,6 +1,10 @@
 export const Products = () => {
     return (
-        <div className={"flex flex-col justify-center items-center"}>
+        <>
+        <div className={"flex flex-col justify-center items-center bg-white h-[100px]"}>
+         
+        </div>
+        <div className={"flex flex-col justify-center items-center bg-white"}>
             <div className={"md:w-5/6 flex flex-col justify-center  gap-8 mt-4 py-[66px] px-[26px]"}>
                 {/*<div className={"flex flex-col justify-start items-start gap-8 md:w-[700px]"}>*/}
                 {/*    <h1 className={"text-[16px] md:text-6xl text-[#111] font-[500] tracking-wide"}>Products</h1>*/}
@@ -32,5 +36,6 @@ export const Products = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 }
