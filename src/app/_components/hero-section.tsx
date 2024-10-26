@@ -3,10 +3,10 @@ import Image from "next/image";
 export const HeroSection = () => {
   return (
     <>
-      <div className="flex justify-center items-center max-sm:bg-[#ffffff] hero-section text-left  h-[200px] md:min-h-[500px]  font-[family-name:var(--font-geist-sans)]  px-[26px] md:px-[126px]  ">
-        <div className={"flex flex-col justify-start items-start gap-8 "}>
+      <div className="flex justify-center items-center max-sm:bg-[#ffffff] hero-section text-left  h-[200px] md:min-h-[350px]  font-[family-name:var(--font-geist-sans)]  px-[26px] md:px-[126px] gap-">
+        <div className={"flex flex-col justify-start items-start gap-8"}>
           <div
-            className={"flex flex-col gap-4 w-[150px] md:w-[600px] text-center"}
+            className={"flex flex-col gap-4 w-[150px] md:w-[600px] text-center mt-[200px]"}
           >
             <div className="flex justify-center items-center gap-4">
               <Image
@@ -99,10 +99,10 @@ export const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center relative bottom-[-100px] z-0 ">
-        <div className=" rounded-md overflow-hidden bg-black md:w-4/6">
+      <div className="flex justify-center items-center relative bottom-[-205px] z-0 ">
+        <div className=" rounded-md overflow-hidden md:w-4/6">
           <Image
-            src={"/assets/hero.webp"}
+            src={"/assets/hero-image.png"}
             alt={"..."}
             width={700}
             height={700}
