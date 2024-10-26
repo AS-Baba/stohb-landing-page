@@ -10,7 +10,7 @@ export const HeroSection = () => {
           >
             <div className="flex justify-center items-center gap-4">
               <Image
-                src={"/assets/business.png"}
+                src={"/assets/icons/business.png"}
                 alt={"..."}
                 width={50}
                 height={50}

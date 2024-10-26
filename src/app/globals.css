@@ -30,6 +30,8 @@ body {
 
 .border {
   border: 1px solid --foreground;
+  transition: all;
+  animation-duration: .3s;
 
 } 
 
