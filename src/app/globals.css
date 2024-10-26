@@ -77,15 +77,9 @@ div.border-top {
 div.choose-how-to-pay {
   background: linear-gradient(#002c15ff 50%, #c2f43bff );
 }
+div.accept-payment {
+  background: linear-gradient(#002c15ff 50%, #c2f43bff );
+}
 @media screen and (max-width: 768px) {
-  .hero-section {
-    background: linear-gradient(
-        rgba(255, 255, 255, 0.47),
-        rgba(255, 255, 255, 0.63)
-      ),
-      url("../../public/assets/hero-image.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-  }
+  
 }
