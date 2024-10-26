@@ -18,7 +18,7 @@ export const Header = () => {
         <button
           type={"button"}
           className={
-            "border border-[#c2f43bff] text-[#c2f43bff] text-[10px] md:text-sm tracking-wider  px-[8px] py-[4px]  md:px-[16px] md:py-[8px]  rounded-full"
+            "border  text-[#c2f43bff] text-[10px] md:text-sm tracking-wider  px-[8px] py-[4px]  md:px-[16px] md:py-[8px]  rounded-full"
           }
         >
           Login
