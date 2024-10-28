@@ -44,7 +44,7 @@ export const TryUs = () => {
                   "text-[16px] md:text-[18px] text-[#939393] tracking-wide"
                 }
               >
-                Accept payment in 35+ currencies into dedicated currency accounts. We won't convert your card payments unless you ask us to
+                Accept payment in 35+ currencies into dedicated currency accounts. We won&apos;t convert your card payments unless you ask us to
               </p>
               <div className="flex flex-col justify-start items-start gap-4">
                 <div className="flex justify-center items-center gap-4">
