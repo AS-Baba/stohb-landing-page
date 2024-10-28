@@ -30,7 +30,7 @@ export const IndustrySolution = () => {
       cartTitle: "Accountancy",
     },
   ];
-  const [industry, setIndustry] = useState(industriesData);
+  const [industry] = useState(industriesData);
 
   return (
     <div

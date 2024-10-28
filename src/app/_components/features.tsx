@@ -36,19 +36,19 @@ export const Features = () => {
           <div className="flex flex-col justify-start items-start gap-4">
             <div className="flex justify-center items-center gap-4">
               <div className="flex justify-center items-center bg-[#c2f43bff]  w-[20px] h-[20px] rounded-full p-1">
-                <img src="/assets/icons/check.png" alt="" />
+                <Image src="/assets/icons/check.png" alt="" width={20}  height={20}/>
               </div>
               <p className="text-[#939393]">No extra hardware needed.</p>
             </div>
             <div className="flex justify-center items-center gap-4">
               <div className="flex justify-center items-center bg-[#c2f43bff] w-[20px] h-[20px] rounded-full p-1">
-                <img src="/assets/icons/check.png" alt="" />
+                <Image src="/assets/icons/check.png" alt="" width={20} height={20}/>
               </div>
               <p className="text-[#939393]">Built in security.</p>
             </div>
             <div className="flex justify-center items-center gap-4">
               <div className="flex justify-center items-center bg-[#c2f43bff] w-[20px] h-[20px] rounded-full p-1">
-                <img src="/assets/icons/check.png" alt="" />
+                <Image src="/assets/icons/check.png" alt="" width={20} height={20} />
               </div>
               <p className="text-[#939393]">Competitive pricing.</p>
             </div>
