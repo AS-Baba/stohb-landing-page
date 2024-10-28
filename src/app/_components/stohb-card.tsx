@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 
 export const StohbCard = () => {
   return (
@@ -8,7 +8,6 @@ export const StohbCard = () => {
         "flex flex-col justify-center items-center gap-4 md:px-[126px] bg-[#002c15ff]"
       }
     >
-        
       <div
         className={
           "flex max-sm:flex-col justify-between items-start w-full p-[40px]"
@@ -29,7 +28,7 @@ export const StohbCard = () => {
             className="w-[450px] h-full "
           />
         </div>
-        <div className='relative right-[300px]'>
+        <div className="relative right-[300px]">
           <Image
             src="/assets/icons/user.png"
             alt=""
@@ -39,9 +38,8 @@ export const StohbCard = () => {
             unoptimized
             className=" h-full "
           />
-
         </div>
-        <div className='relative right-[220px] top-[100px]'>
+        <div className="relative right-[220px] top-[100px]">
           <Image
             src="/assets/icons/user.jpg"
             alt=""
@@ -51,9 +49,8 @@ export const StohbCard = () => {
             unoptimized
             className=" h-full rounded-full "
           />
-
         </div>
-        <div className='relative left-[-500px] top-[350px]'>
+        <div className="relative left-[-500px] top-[350px]">
           <Image
             src="/assets/icons/testimonial-1.jpg"
             alt=""
@@ -63,7 +60,6 @@ export const StohbCard = () => {
             unoptimized
             className=" h-full rounded-full "
           />
-
         </div>
         <div
           className={
@@ -82,7 +78,8 @@ export const StohbCard = () => {
               "text-[16px] md:text-[18px] text-[#e7e7e7] tracking-wide"
             }
           >
-            Big or small your team is, stohb cards have got you covered. Spend securely with physical and virtual debit cards that you control. 
+            Big or small your team is, stohb cards have got you covered. Spend
+            securely with physical and virtual debit cards that you control.
           </p>
 
           <div className="flex flex-col justify-start items-start gap-4">
@@ -130,5 +127,5 @@ export const StohbCard = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};

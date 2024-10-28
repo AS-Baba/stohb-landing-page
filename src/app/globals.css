@@ -75,11 +75,10 @@ div.border-top {
 }
 
 div.choose-how-to-pay {
-  background: linear-gradient(#002c15ff 50%, #c2f43bff );
+  background: linear-gradient(#002c15ff 50%, #c2f43bff);
 }
 div.accept-payment {
-  background: linear-gradient(#002c15ff 50%, #c2f43bff );
+  background: linear-gradient(#002c15ff 50%, #c2f43bff);
 }
 @media screen and (max-width: 768px) {
-  
 }
