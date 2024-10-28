@@ -45,6 +45,7 @@ export const Products = () => {
                           alt={"..."}
                           width={20}
                           height={20}
+                          unoptimized
                           className={"max-sm:hidden max-sm:w-[50px] max-sm:h-[50px]"}
                         />
                     </div>
@@ -55,6 +56,7 @@ export const Products = () => {
                           alt={"..."}
                           width={50}
                           height={50}
+                          unoptimized
                           className={"max-sm:hidden max-sm:w-[50px] max-sm:h-[50px]"}
                         />
                     <div className="flex justify-center items-center gap-2">
@@ -70,6 +72,7 @@ export const Products = () => {
                           alt={"..."}
                           width={100}
                           height={100}
+                          unoptimized
                           className={"max-sm:hidden max-sm:w-[50px] max-sm:h-[50px]"}
                         />
                     </div>
@@ -79,6 +82,7 @@ export const Products = () => {
                           alt={"..."}
                           width={100}
                           height={100}
+                          unoptimized
                           className={"max-sm:hidden max-sm:w-[50px] max-sm:h-[50px]"}
                         />
                     </div>
@@ -89,6 +93,7 @@ export const Products = () => {
                           alt={"..."}
                           width={100}
                           height={100}
+                          unoptimized
                           className={"max-sm:hidden max-sm:w-[50px] max-sm:h-[50px]"}
                         />
                         <Image
@@ -96,6 +101,7 @@ export const Products = () => {
                           alt={"..."}
                           width={100}
                           height={100}
+                          unoptimized
                           className={"max-sm:hidden max-sm:w-[50px] max-sm:h-[50px]"}
                         />
                     
