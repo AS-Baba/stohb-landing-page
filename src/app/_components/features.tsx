@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const Features = () => {
   return (
     <div
@@ -80,11 +82,12 @@ export const Features = () => {
             "choose-how-to-pay flex flex-col justify-start items-start gap-4 md:gap-8  h-[550px] bg-[#f7f8fa]  rounded-xl overflow-hidden"
           }
         >
-          <img
+          <Image
             src="/assets/icons/phone.png"
             alt=""
-            width={"100%"}
-            height={"100%"}
+            width={"100"}
+            height={"100"}
+            unoptimized
             className="w-full h-full"
           />
         </div>
