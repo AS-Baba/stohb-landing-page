@@ -3,25 +3,25 @@ import Image from "next/image";
 export const HeroSection = () => {
   return (
     <>
-      <div className="flex justify-center items-center max-sm:bg-[#ffffff] hero-section text-left  h-[200px] md:min-h-[350px]  font-[family-name:var(--font-geist-sans)]  px-[26px] md:px-[126px] gap-">
-        <div className={"flex flex-col justify-start items-start gap-8"}>
+      <div className="flex justify-center items-center  hero-section text-left  h-[200px] md:min-h-[350px]  font-[family-name:var(--font-geist-sans)]  px-[26px] md:px-[126px] gap-">
+        <div className={"flex flex-col justify-center items-center gap-8"}>
           <div
-            className={"flex flex-col gap-4 w-[150px] md:w-[600px] text-center mt-[200px]"}
+            className={"flex flex-col justify-center items-center gap-4 w-[200px] md:w-[600px] text-center mt-[200px]"}
           >
-            <div className="flex justify-center items-center gap-4">
+            <div className="flex justify-center items-center gap-2 md:gap-4">
               <Image
                 src={"/assets/icons/business.png"}
                 alt={"..."}
                 width={50}
                 height={50}
-                className={"max-sm:hidden max-sm:w-[50px] max-sm:h-[50px]"}
+                className={" max-sm:w-[30px] max-sm:h-[30px]"}
               />
 
-              <p className="text-[#c2f43bff] font-[500] underline">Business</p>
+              <p className="max-sm:text-sm text-[#c2f43bff] font-[500] underline">Business</p>
             </div>
             <h1
               className={
-                "text-[#fff] text-[12px] md:text-5xl font-[500] capitalize antialiased tracking-wide "
+                "text-[#fff] text-[16px] md:text-5xl font-[500] capitalize antialiased tracking-wide "
               }
             >
               Manage{" "}

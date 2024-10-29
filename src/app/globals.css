@@ -80,5 +80,3 @@ div.choose-how-to-pay {
 div.accept-payment {
   background: linear-gradient(#002c15ff 50%, #c2f43bff);
 }
-@media screen and (max-width: 768px) {
-}
