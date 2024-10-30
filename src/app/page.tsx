@@ -15,7 +15,7 @@ export default function Home() {
             <Products></Products>
             <Features></Features>
             <TryUs></TryUs>
-            <StohbCard></StohbCard>
+            {/* <StohbCard></StohbCard> */}
             <IndustrySolution></IndustrySolution>
             <Footer></Footer>
         </>

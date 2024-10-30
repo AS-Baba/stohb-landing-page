@@ -99,13 +99,14 @@ export const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center relative bottom-[-150px] md:bottom-[-205px] z-0 ">
-        <div className=" rounded-md overflow-hidden md:w-4/6">
+      <div className="flex justify-center items-center relative bottom-[-100px] md:bottom-[-205px] z-0 ">
+        <div className=" rounded-md overflow-hidden  md:w-4/6  px-4">
           <Image
             src={"/assets/hero-image.png"}
             alt={"..."}
-            width={700}
-            height={700}
+            width={100}
+            height={100}
+            unoptimized
             className={"w-full"}
           />
         </div>
