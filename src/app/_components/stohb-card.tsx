@@ -10,12 +10,12 @@ export const StohbCard = () => {
     >
       <div
         className={
-          "flex max-sm:flex-col justify-between items-start w-full p-[40px]"
+          "flex max-sm:flex-col justify-center md:justify-between items-start w-full p-[40px]"
         }
       >
         <div
           className={
-            "choose-how-to-pa flex justify-start items-start gap-4 md:gap-8  md:h-[550px]   rounded-xl overflow-hidden  "
+            "choose-how-to-pa flex justify-start items-start gap-4 md:gap-8  md:h-[550px] rounded-xl overflow-hidden "
           }
         >
           <Image
@@ -28,7 +28,7 @@ export const StohbCard = () => {
             className="w-[450px] h-full "
           />
         </div>
-        <div className="relative max-sm:bottom-[300px] max-sm:right-[-110px] md:right-[300px]">
+        <div className="relative max-sm:bottom-[260px] max-sm:right-[-110px] md:right-[300px]">
           <Image
             src="/assets/icons/user.png"
             alt=""
@@ -39,7 +39,7 @@ export const StohbCard = () => {
             className=" h-full "
           />
         </div>
-        <div className="relative max-sm:bottom-[300px] bottom-[-100px] max-sm:right-[-200px] md:right-[200px]">
+        <div className="relative max-sm:bottom-[280px] bottom-[-100px] max-sm:right-[-200px] md:right-[200px]">
           <Image
             src="/assets/icons/user.jpg"
             alt=""
@@ -50,7 +50,7 @@ export const StohbCard = () => {
             className=" h-full rounded-full "
           />
         </div>
-        <div className="relative max-sm:bottom-[220px] bottom-[-350px] max-sm:right-[-50px] right-[500px]">
+        <div className="relative max-sm:bottom-[200px] bottom-[-350px] max-sm:right-[-20px] right-[500px]">
           <Image
             src="/assets/icons/testimonial-1.jpg"
             alt=""
@@ -63,7 +63,7 @@ export const StohbCard = () => {
         </div>
         <div
           className={
-            "flex flex-col justify-start items-start gap-8 w-full md:w-[400px]"
+            "flex flex-col justify-start items-start gap-8 w-full  md:w-[400px]"
           }
         >
           <h1

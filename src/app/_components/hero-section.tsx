@@ -90,7 +90,7 @@ export const HeroSection = () => {
           <div className="w-full flex justify-center items-center">
             <p
               className={
-                "md:text-[12px] text-[10px] text-[#fff] font-[400] tracking-wider antialiased"
+                "md:text-[12px] text-[10px] text-[#fff] font-[400] tracking-wide antialiased"
               }
             >
               Talk to an account professional to get started,{" "}
@@ -99,7 +99,7 @@ export const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center relative bottom-[-100px] md:bottom-[-205px] z-0 ">
+      <div className="flex justify-center items-center relative bottom-[-150px] md:bottom-[-205px] z-0 ">
         <div className=" rounded-md overflow-hidden md:w-4/6">
           <Image
             src={"/assets/hero-image.png"}
