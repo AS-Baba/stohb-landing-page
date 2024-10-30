@@ -6,36 +6,43 @@ import Image from "next/image";
 export default function Testimonials() {
   const testimonialData = [
     {
+        id: 1,
       image: "/assets/uber-ceo.png",
       cartText:
         "Uber optimizes the driver experience using Stohb as their main payment.",
     },
     {
+        id:2,
       image: "/assets/uber-ceo.png",
       cartText:
         "Uber optimizes the driver experience using Stohb as their main payment.",
     },
     {
+        id:3,
       image: "/assets/uber-ceo.png",
       cartText:
         "Uber optimizes the driver experience using Stohb as their main payment.",
     },
     {
+        id:4,
       image: "/assets/uber-ceo.png",
       cartText:
         "Uber optimizes the driver experience using Stohb as their main payment.",
     },
     {
+        id:5,
       image: "/assets/uber-ceo.png",
       cartText:
         "Uber optimizes the driver experience using Stohb as their main payment.",
     },
     {
+        id:6,
       image: "/assets/uber-ceo.png",
       cartText:
         "Uber optimizes the driver experience using Stohb as their main payment.",
     },
     {
+        id:7,
       image: "/assets/uber-ceo.png",
       cartText:
         "Uber optimizes the driver experience using Stohb as their main payment.",
@@ -43,7 +50,7 @@ export default function Testimonials() {
   ];
   const [customer] = useState(testimonialData);
 
-  var settings = {
+  const settings = {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -79,7 +86,7 @@ export default function Testimonials() {
         <Slider {...settings}>
           {customer.map((item) => {
             return (
-              <div className="p-[16px]">
+              <div className="p-[16px]" key={item.id}>
                 <div className="card bg-base-100 w-full md:w-76 bg-[#d5f876ff] rounded-lg  overflow-hidden">
                   <figure>
                     <Image
