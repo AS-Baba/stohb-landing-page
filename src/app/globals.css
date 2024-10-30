@@ -84,7 +84,8 @@ div.accept-payment {
   background: linear-gradient(#002c15ff 50%, #c2f43bff);
 }
 
-.slick-prev,.slick-next {
+.slick-prev,
+.slick-next {
   background-color: #002c15ff;
   /* Change to your desired color */
 

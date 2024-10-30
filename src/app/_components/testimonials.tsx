@@ -7,44 +7,49 @@ export default function Testimonials() {
   const testimonialData = [
     {
       image: "/assets/uber-ceo.png",
-      cartText: "Uber optimizes the driver experience using Stohb as their main payment.",
+      cartText:
+        "Uber optimizes the driver experience using Stohb as their main payment.",
     },
     {
       image: "/assets/uber-ceo.png",
-      cartText: "Uber optimizes the driver experience using Stohb as their main payment.",
+      cartText:
+        "Uber optimizes the driver experience using Stohb as their main payment.",
     },
     {
       image: "/assets/uber-ceo.png",
-      cartText: "Uber optimizes the driver experience using Stohb as their main payment.",
+      cartText:
+        "Uber optimizes the driver experience using Stohb as their main payment.",
     },
     {
       image: "/assets/uber-ceo.png",
-      cartText: "Uber optimizes the driver experience using Stohb as their main payment.",
+      cartText:
+        "Uber optimizes the driver experience using Stohb as their main payment.",
     },
     {
       image: "/assets/uber-ceo.png",
-      cartText: "Uber optimizes the driver experience using Stohb as their main payment.",
+      cartText:
+        "Uber optimizes the driver experience using Stohb as their main payment.",
     },
     {
       image: "/assets/uber-ceo.png",
-      cartText: "Uber optimizes the driver experience using Stohb as their main payment.",
+      cartText:
+        "Uber optimizes the driver experience using Stohb as their main payment.",
     },
     {
       image: "/assets/uber-ceo.png",
-      cartText: "Uber optimizes the driver experience using Stohb as their main payment.",
+      cartText:
+        "Uber optimizes the driver experience using Stohb as their main payment.",
     },
-    
   ];
   const [customer] = useState(testimonialData);
 
   var settings = {
-      autoPlay: false,
-    // dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    // cssEase: "linear",
+    autoPlay: false,
+    autoplaySpeed: 3000,
     pauseOnHover: true,
     responsive: [
       {
@@ -57,9 +62,9 @@ export default function Testimonials() {
   };
   return (
     <div className="flex flex-col justify-center items-center w-full p-4 bg-[#f2f5f7ff]">
-        <div className="w-4/6 text-center py-[20px]">
+      <div className="w-4/6 text-center py-[20px]">
         <p className="text-[#002c15ff]  underline decoration-[#c2f43bff]">
-            Customers stories
+          Customers stories
         </p>
         <h1
           className={
