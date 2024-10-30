@@ -17,7 +17,7 @@ export default function Home() {
             <TryUs></TryUs>
             <StohbCard></StohbCard>
             <IndustrySolution></IndustrySolution>
-            {/* <Footer></Footer> */}
+            <Footer></Footer>
         </>
 
     );
