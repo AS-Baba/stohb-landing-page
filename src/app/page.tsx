@@ -6,6 +6,8 @@ import {TryUs} from "@/app/_components/try-us-section";
 import {Footer} from "@/app/_components/ui/footer";
 import { StohbCard } from "./_components/stohb-card";
 import { IndustrySolution } from "./_components/industry-solution";
+import Testimonials from "./_components/testimonials";
+import { BankReatingRates } from "./_components/bank-beating-rates";
 
 export default function Home() {
     return (
@@ -15,8 +17,10 @@ export default function Home() {
             <Products></Products>
             <Features></Features>
             <TryUs></TryUs>
-            {/* <StohbCard></StohbCard> */}
+            <StohbCard></StohbCard>
             <IndustrySolution></IndustrySolution>
+            <Testimonials></Testimonials>
+            <BankReatingRates></BankReatingRates>
             <Footer></Footer>
         </>
 

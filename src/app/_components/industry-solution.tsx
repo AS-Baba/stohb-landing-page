@@ -35,7 +35,7 @@ export const IndustrySolution = () => {
   return (
     <div
       className={
-        "flex flex-col justify-center items-center gap-4 md:px-[126px] md:py-[50px] bg-[#f2f5f7ff]"
+        "flex flex-col justify-center items-center gap-4 md:px-[126px] md:py-[50px] bg-[#fff]"
       }
     >
       <div className="w-4/6 text-center py-[20px]">

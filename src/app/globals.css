@@ -1,3 +1,6 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -79,4 +82,16 @@ div.choose-how-to-pay {
 }
 div.accept-payment {
   background: linear-gradient(#002c15ff 50%, #c2f43bff);
+}
+
+.slick-prev,.slick-next {
+  background-color: #002c15ff;
+  /* Change to your desired color */
+
+  /* Optional: Make it circular */
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  z-index: 1;
+  /* Ensure it stays above the slides */
 }
