@@ -10,7 +10,7 @@ export const TryUs = () => {
       >
         <div
           className={
-            "flex max-sm:flex-col justify-between items-start w-full p-[40px]"
+            "flex max-sm:flex-col justify-between items-start gap-4 w-full p-[40px]"
           }
         >
           <div
@@ -114,7 +114,7 @@ export const TryUs = () => {
       >
         <div
           className={
-            "flex max-sm:flex-col justify-between items-start w-full p-[40px]"
+            "flex max-sm:flex-col justify-between items-start gap-4 w-full p-[40px]"
           }
         >
           <div

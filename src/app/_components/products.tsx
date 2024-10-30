@@ -4,7 +4,7 @@ export const Products = () => {
     <>
       <div
         className={
-          "flex flex-col justify-center items-center bg-white h-[200px]"
+          "flex flex-col justify-center items-center bg-white h-[150px] md:h-[200px]"
         }
       ></div>
       <div className={"flex flex-col justify-center items-center bg-white"}>
@@ -34,11 +34,11 @@ export const Products = () => {
           >
             <div
               className={
-                "w-full flex  justify-center items-center gap-[136px] "
+                "w-full flex  justify-center items-center md:gap-[136px] "
               }
             >
-              <div className="flex gap-[136px]">
-                <div className="flex flex-col justify-center items-center gap-8">
+              <div className="grid grid-cols-1 sm:grid-cols-4 mad:grid-cols-4 gap-4">
+                <div className="flex flex-col justify-center items-center gap-4">
                   <h1 className="text-[#111] text-2xl tracking-wide font-[600]">
                     Uber
                   </h1>
@@ -52,9 +52,7 @@ export const Products = () => {
                       width={20}
                       height={20}
                       unoptimized
-                      className={
-                        "max-sm:hidden max-sm:w-[50px] max-sm:h-[50px]"
-                      }
+                     
                     />
                   </div>
                 </div>
@@ -65,7 +63,7 @@ export const Products = () => {
                     width={50}
                     height={50}
                     unoptimized
-                    className={"max-sm:hidden max-sm:w-[50px] max-sm:h-[50px]"}
+                    
                   />
                   <div className="flex justify-center items-center gap-2">
                     <h1 className="text-2xl tracking-wide text-[#045ac6ff] font-[700]">
@@ -77,7 +75,7 @@ export const Products = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex gap-[136px]">
+              <div className="flex md:gap-[136px]">
                 <div className="flex flex-col justify-center items-center gap-8">
                   <div className="flex justify-center items-center gap-2">
                     <Image
@@ -87,7 +85,7 @@ export const Products = () => {
                       height={100}
                       unoptimized
                       className={
-                        "max-sm:hidden max-sm:w-[50px] max-sm:h-[50px]"
+                        " "
                       }
                     />
                   </div>
@@ -98,9 +96,7 @@ export const Products = () => {
                       width={100}
                       height={100}
                       unoptimized
-                      className={
-                        "max-sm:hidden max-sm:w-[50px] max-sm:h-[50px]"
-                      }
+                      
                     />
                   </div>
                 </div>
@@ -111,7 +107,7 @@ export const Products = () => {
                     width={100}
                     height={100}
                     unoptimized
-                    className={"max-sm:hidden max-sm:w-[50px] max-sm:h-[50px]"}
+                   
                   />
                   <Image
                     src={"/assets/icons/weboth.png"}
@@ -119,7 +115,7 @@ export const Products = () => {
                     width={100}
                     height={100}
                     unoptimized
-                    className={"max-sm:hidden max-sm:w-[50px] max-sm:h-[50px]"}
+                   
                   />
                 </div>
               </div>

@@ -3,7 +3,7 @@ import Image from "next/image";
 export const HeroSection = () => {
   return (
     <>
-      <div className="flex justify-center items-center  hero-section text-left  h-[200px] md:min-h-[350px]  font-[family-name:var(--font-geist-sans)]  px-[26px] md:px-[126px] gap-">
+      <div className="flex justify-center items-center  hero-section text-left  h-[300px]  md:min-h-[350px]  font-[family-name:var(--font-geist-sans)]  px-[26px] md:px-[126px] gap-">
         <div className={"flex flex-col justify-center items-center gap-8"}>
           <div
             className={"flex flex-col justify-center items-center gap-4 w-[200px] md:w-[600px] text-center mt-[200px]"}
@@ -99,14 +99,14 @@ export const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center relative bottom-[-205px] z-0 ">
+      <div className="flex justify-center items-center relative bottom-[-100px] md:bottom-[-205px] z-0 ">
         <div className=" rounded-md overflow-hidden md:w-4/6">
           <Image
             src={"/assets/hero-image.png"}
             alt={"..."}
             width={700}
             height={700}
-            className={"max-sm:hidden w-full"}
+            className={"w-full"}
           />
         </div>
       </div>

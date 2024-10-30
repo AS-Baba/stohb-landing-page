@@ -12,11 +12,11 @@ export default function Home() {
         <>
             <Header></Header>
             <HeroSection></HeroSection>
-            {/* <Products></Products> */}
-            {/* <Features></Features> */}
-            {/* <TryUs></TryUs> */}
-            {/* <StohbCard></StohbCard> */}
-            {/* <IndustrySolution></IndustrySolution> */}
+            <Products></Products>
+            <Features></Features>
+            <TryUs></TryUs>
+            <StohbCard></StohbCard>
+            <IndustrySolution></IndustrySolution>
             {/* <Footer></Footer> */}
         </>
 

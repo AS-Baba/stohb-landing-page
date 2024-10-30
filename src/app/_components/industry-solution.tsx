@@ -50,11 +50,11 @@ export const IndustrySolution = () => {
           As your business grows, so do our global payment solutions.
         </h1>
       </div>
-      <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-sm:px-[20px]">
         {industry.map((item) => {
           return (
             <>
-              <div className="card bg-base-100 w-76 rounded-lg overflow-hidden">
+              <div className="card bg-base-100 w-full md:w-76 rounded-lg overflow-hidden">
                 <figure>
                   <Image
                     src={item.image}
@@ -65,7 +65,7 @@ export const IndustrySolution = () => {
                     className="w-full"
                   />
                 </figure>
-                <div className="card-body py-2">
+                <div className="card-body py-2 ">
                   <h2 className="card-title text-[#111] font-[600] capitalize">
                     {item.cartTitle}
                   </h2>

@@ -15,7 +15,7 @@ export const StohbCard = () => {
       >
         <div
           className={
-            "choose-how-to-pa flex justify-start items-start gap-4 md:gap-8  h-[550px]   rounded-xl overflow-hidden  "
+            "choose-how-to-pa flex justify-start items-start gap-4 md:gap-8  md:h-[550px]   rounded-xl overflow-hidden  "
           }
         >
           <Image
@@ -28,7 +28,7 @@ export const StohbCard = () => {
             className="w-[450px] h-full "
           />
         </div>
-        <div className="relative right-[300px]">
+        <div className="relative max-sm:bottom-[300px] max-sm:right-[-110px] md:right-[300px]">
           <Image
             src="/assets/icons/user.png"
             alt=""
@@ -39,7 +39,7 @@ export const StohbCard = () => {
             className=" h-full "
           />
         </div>
-        <div className="relative right-[220px] top-[100px]">
+        <div className="relative max-sm:bottom-[300px] bottom-[-100px] max-sm:right-[-200px] md:right-[200px]">
           <Image
             src="/assets/icons/user.jpg"
             alt=""
@@ -50,7 +50,7 @@ export const StohbCard = () => {
             className=" h-full rounded-full "
           />
         </div>
-        <div className="relative left-[-500px] top-[350px]">
+        <div className="relative max-sm:bottom-[220px] bottom-[-350px] max-sm:right-[-50px] right-[500px]">
           <Image
             src="/assets/icons/testimonial-1.jpg"
             alt=""
