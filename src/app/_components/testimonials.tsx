@@ -69,7 +69,7 @@ export default function Testimonials() {
   };
   return (
     <div className="flex flex-col justify-center items-center w-full p-4 bg-[#f2f5f7ff]">
-      <div className="w-4/6 text-center py-[20px]">
+      <div className=" w-4/6 text-center py-[20px]">
         <p className="text-[#002c15ff]  underline decoration-[#c2f43bff]">
           Customers stories
         </p>
