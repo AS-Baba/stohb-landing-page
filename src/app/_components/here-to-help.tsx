@@ -11,7 +11,7 @@ export const HereToHelp = () => {
         </p>
         <h1
           className={
-            "text-[16px] md: text-6xl  text-[#002c15ff] font-[500] tracking-wid"
+            " text-6xl  text-[#002c15ff] font-[500] tracking-wid"
           }
         >
           Common <br /> questions

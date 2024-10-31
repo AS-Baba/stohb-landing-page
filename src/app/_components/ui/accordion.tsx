@@ -12,7 +12,7 @@ function AccordionItem({ title, content }:accordionInterface) {
   return (
     <div className="w-full ">
       <button
-        className="w-full text-left py-4 px-4 ma:px-6 text-[1px] md:text-lg font-[400] md:font-[600] flex justify-between items-center gap-2  text-[#002c15ff] "
+        className="w-full text-left py-4 px-4 ma:px-6 text-[16px] md:text-lg font-[600] md:font-[600] flex justify-between items-center gap-2  text-[#002c15ff] "
         onClick={() => setIsOpen(!isOpen)}
       >
         {title}
