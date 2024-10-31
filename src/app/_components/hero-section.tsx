@@ -68,7 +68,7 @@ export const HeroSection = () => {
             <a
               type={"button"}
               className={
-                "flex justify-center items-center gap-2 text-[#c2f43bff]  border   text-[10px] md:text-sm tracking-wider  font-[600] px-[8px] py-[4px] md:px-[16px] md:py-[16px]  rounded-full"
+                "flex justify-center items-center gap-2 text-[#c2f43bff]     text-[10px] md:text-sm tracking-wider  font-[600] px-[8px] py-[4px] md:px-[16px] md:py-[16px]  rounded-full"
               }
             >
               Contact Sales

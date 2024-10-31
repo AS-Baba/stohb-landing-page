@@ -8,6 +8,9 @@ import { StohbCard } from "./_components/stohb-card";
 import { IndustrySolution } from "./_components/industry-solution";
 import Testimonials from "./_components/testimonials";
 import { BankReatingRates } from "./_components/bank-beating-rates";
+import CountryCoverage from "./_components/country-coverage";
+import { HereToHelp } from "./_components/here-to-help";
+import { ReadyToGetStarted } from "./_components/ready-to-get-started";
 
 export default function Home() {
   return (
@@ -21,6 +24,11 @@ export default function Home() {
       <IndustrySolution></IndustrySolution>
       <Testimonials></Testimonials>
       <BankReatingRates></BankReatingRates>
+      <div className="max-sm:hidden">
+        <CountryCoverage ></CountryCoverage>
+      </div>
+      <HereToHelp></HereToHelp>
+      <ReadyToGetStarted></ReadyToGetStarted>
       <Footer></Footer>
     </>
   );
