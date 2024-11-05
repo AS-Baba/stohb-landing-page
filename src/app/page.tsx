@@ -15,20 +15,20 @@ import { ReadyToGetStarted } from "./_components/ready-to-get-started";
 export default function Home() {
   return (
     <>
-      <Header></Header>
-      <HeroSection></HeroSection>
-      <Products></Products>
-      <Features></Features>
-      <TryUs></TryUs>
-      <StohbCard></StohbCard>
+      <Header />
+      <HeroSection />
+      <Products />
+      <Features />
+      <StohbCard />
+
       <IndustrySolution></IndustrySolution>
-      <Testimonials></Testimonials>
+      {/* <Testimonials></Testimonials> */}
       <BankReatingRates></BankReatingRates>
-      <div className="max-sm:hidden">
+      {/* <div className="max-sm:hidden">
         <CountryCoverage ></CountryCoverage>
-      </div>
+      </div> */}
       <HereToHelp></HereToHelp>
-      <ReadyToGetStarted></ReadyToGetStarted>
+      {/* <ReadyToGetStarted></ReadyToGetStarted> */}
       <Footer></Footer>
     </>
   );
