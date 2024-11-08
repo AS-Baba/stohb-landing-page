@@ -27,7 +27,7 @@ export const Footer = () => {
           <p className="text-[#636564ff]">Press</p>
           <p className="text-[#636564ff]">
             Careers{" "}
-            <span className="text-[10px] font-[600] text-[#002c15ff] bg-[#c2f43bff] rounded-full p-1">
+            <span className="text-[10px] font-[600] text-[#002c15ff] bg-light_green rounded-full p-1">
               We&apos;re hiring
             </span>
           </p>

@@ -16,7 +16,7 @@ function AccordionItem({ title, content }:accordionInterface) {
         onClick={() => setIsOpen(!isOpen)}
       >
         {title}
-        <span className="flex justify-center items-center md:w-[30px] md:h-[30px] md:bg-[#c2f43bff] text-[#002c15ff]  rounded-full">
+        <span className="flex justify-center items-center md:w-[30px] md:h-[30px] md:bg-light_green text-[#002c15ff]  rounded-full">
           {isOpen ? "-" : "+"}
         </span>
       </button>
