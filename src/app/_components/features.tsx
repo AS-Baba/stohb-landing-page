@@ -67,7 +67,7 @@ export const Features = () => {
     >
       {feature_list.map((feature, index) => (
         <div
-          className={`flex gap-[80px] w-full lg:max-w-4xl ${
+           key={index} className={`flex gap-[80px] w-full lg:max-w-4xl ${
             (index + 1) % 2 == 0 ? "!flex-col-reverse lg:!flex-row" : "!flex-col-reverse lg:!flex-row-reverse"
           }`}
         >
@@ -82,7 +82,7 @@ export const Features = () => {
               />
             </div>
           </div>
-          <div className={`lg:flex-1 ${
+          <div key={index} className={`lg:flex-1 ${
             (index + 1) % 2 == 0 ? "lg:text-right" : "lg:text-left"
           }`}>
             <div className={`max-w-md flex flex-col gap-[16px]  ${
@@ -93,8 +93,8 @@ export const Features = () => {
               </span>
               <p className="text-[16px] text-gray-600">{feature.description}</p>
               <div className="w-max flex flex-col gap-[16px] text-[14px]">
-                {feature.bullet_points.map((bullet_point) => (
-                  <span className="flex items-center justify-start gap-[8px]">
+                {feature.bullet_points.map((bullet_point, index) => (
+                  <span key={index} className="flex items-center justify-start gap-[8px]">
                     <span className="bg-light_green w-[24px] h-[24px] flex justify-center items-center p-1 rounded-full aspect-square">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

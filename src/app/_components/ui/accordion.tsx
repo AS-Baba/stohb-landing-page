@@ -30,33 +30,30 @@ function AccordionItem({ title, content }:accordionInterface) {
 }
 
 export default function Accordion() {
-  const data = [
-    {
-      title: "How do I register for a stohb business account ?",
-      content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. In nemo ratione quos consequuntur aperiam. Alias quam odio maiores consequatur voluptates vero iusto at non animi explicabo! Quaerat asperiores molestias quam eum sed, rem similique doloribus officiis architecto dolorem repudiandae nobis.",
-    },
-    {
-      title: "Is my money safe and secure ?",
-      content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. In nemo ratione quos consequuntur aperiam. Alias quam odio maiores consequatur voluptates vero iusto at non animi explicabo! Quaerat asperiores molestias quam eum sed, rem similique doloribus officiis architecto dolorem repudiandae nobis.",
-    },
-    {
-      title: "How do I exchange currencies with paymint ?",
-      content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. In nemo ratione quos consequuntur aperiam. Alias quam odio maiores consequatur voluptates vero iusto at non animi explicabo! Quaerat asperiores molestias quam eum sed, rem similique doloribus officiis architecto dolorem repudiandae nobis.",
-    },
-    {
-      title: "How long do international transfers take ?",
-      content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. In nemo ratione quos consequuntur aperiam. Alias quam odio maiores consequatur voluptates vero iusto at non animi explicabo! Quaerat asperiores molestias quam eum sed, rem similique doloribus officiis architecto dolorem repudiandae nobis.",
-    },
-    {
-      title: "How do I add money to my stohb balance ?",
-      content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. In nemo ratione quos consequuntur aperiam. Alias quam odio maiores consequatur voluptates vero iusto at non animi explicabo! Quaerat asperiores molestias quam eum sed, rem similique doloribus officiis architecto dolorem repudiandae nobis.",
-    },
-  ];
+ const data = [
+  {
+    title: "How do I register for a Stohb business account?",
+    content:
+      "To register for a Stohb business account, visit our website and click on 'Sign Up'. Follow the instructions to fill in your business information. After verification, your account will be set up, and you can start managing your expenses and payments with ease.",
+  },
+  {
+    title: "Is my money safe and secure with Stohb?",
+    content:
+      "Yes, at Stohb, we prioritize the security of your funds. Our platform is built with advanced security protocols to ensure that your money and data are safe. We also comply with industry standards and regulations for financial security.",
+  },
+  {
+    title: "How do I manage and track expenses with Stohb?",
+    content:
+      "Stohb makes it simple to manage and track your expenses. Just log in to your dashboard, where you can view, categorize, and monitor all your transactions in real-time, helping you maintain control over your business finances.",
+  },
+  
+  {
+    title: "How can I add money to my Stohb balance?",
+    content:
+      "You can add money to your Stohb balance by linking your bank account or card to your Stohb account. Once linked, simply select the 'Add Funds' option, choose your preferred method, and complete the transfer to top up your balance.",
+  },
+];
+
 
   return (
     <div className="w-full mx-auto rounded-lg overflow-hidden">

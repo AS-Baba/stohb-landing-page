@@ -17,8 +17,9 @@ export const Products = () => {
     >
       <span className="text-[20px] text-zinc-500">Trusted by these businesses</span>
       <div className="w-full max-w-2xl flex flex-wrap gap-[40px] justify-center items-center mx-auto">
-        {businesses_image_urls.map((url) => (
+        {businesses_image_urls.map((url, index) => (
           <Image
+          key={index}
             className="w-max h-[40px]"
             width={100}
             height={100}
